@@ -197,7 +197,8 @@
 		outline: 0;
 
 		&:hover {
-			color: #E27689;
+			// color: #E27689;
+			color: #2FCC71;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 	}
@@ -839,6 +840,10 @@
 
 				.contact_box {
 					list-style: none;
+				}
+
+				.icon_box {
+					margin: 40px 0;
 				}
 			}
 		}
