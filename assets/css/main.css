@@ -2049,6 +2049,11 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+		.regular:before {
+			margin-right:15px;
+		}
+
+
 /* Header */
 
 	#header {
@@ -2289,6 +2294,26 @@ input, select, textarea {
 				/* background-color: #f5fafa;*/
 				background-color: #f3f3f3;
 			} 
+				#main > section.two .skillset {
+					padding: 0 2em;
+
+				}
+					#main > section.two .skillset .skill .skill_description {
+						display : flex;
+						justify-content: space-between;
+					}
+
+					#main > section.two .skillset .skill .skill_bar {
+						width : 100%;
+						height : 3px;
+						background-color : #000;
+						margin-bottom: 8px;
+					}
+					#main > section.two .skillset .skill .skill_bar .skill_value{
+						height: 3px;
+						background-color : #2FCC71;
+					}
+	
 
 			#main > section.three {
 				/* background-color: #ecf1f1; */
@@ -2299,6 +2324,9 @@ input, select, textarea {
 				/* background-color: #e8edec; */
 				background-color: #f3f3f3;
 			}
+				#main > section.four .contact_box {
+					list-style: none;
+				}
 
 /* Wide */
 
